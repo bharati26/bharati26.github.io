@@ -7,3 +7,8 @@
 	width: 100%;
 	height: 200px;
 }
+#devcon{
+	display: inline-block;
+	list-style: none;
+}
+#devcon li{float: left;padding: 5px;}
