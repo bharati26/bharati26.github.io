@@ -2,7 +2,12 @@ body,html{
 	background-color:#868A08;
 	font-family:Times New Roman,Georgia;
 	}
-	
+#head h1,h2{
+		display:inline-block;
+		}
+#head h2{
+	text-shadow: 6px 6px 6px #101907;
+	}
 #head h1{
 	text-shadow: 6px 6px 6px #101907;
 	font-size:6em;
