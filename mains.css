@@ -21,15 +21,13 @@ body,html{
 #headline li{
 	font-size:1.5em;
 }
-#image{
-	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+#image:hover {
+-webkit-transform: skew(0deg,-20deg); transform: skew(0deg,-20deg);
 }
-#image:hover{
-	border-radius:50%; opacity: 0.6; 
-	-webkit-transform: rotate(720deg);
-	transform: rotate(720deg);
-	}
+#image {
+-webkit-transition: all 0.7s ease; transition: all 0.7s ease;
+}
+
 #image1{
 	padding:150px;
 	}
