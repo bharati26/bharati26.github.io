@@ -1,0 +1,75 @@
+@font-face{
+	font-family:"MyNewFont";
+	src:url("Forque.ttf") format("truetype");
+	font-weight:1700;
+	}
+@font-face{
+	font-family:"MyNewFont1";
+	src:url("BroadcastTitling.ttf") format("truetype");
+	font-weight:1700;
+	}
+@font-face{
+	font-family:"MyNewFont2";
+	src:url("ENDOR___.ttf") format("truetype");
+	font-weight:1700;
+	}
+	
+	
+body,html{
+	background:#BDBDBD;
+	}
+#headline li{
+	font-size:1.5em;
+}
+#image{
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#image:hover{
+	border-radius:50%; opacity: 0.6; 
+	-webkit-transform: rotate(720deg);
+	transform: rotate(720deg);
+	}
+#image1{
+	padding:150px;
+	}
+#matter p{
+		font-family:"Times New Roman",Georgia,Serif;
+		font-size:1.4em;
+	}
+#matter h1{
+	font-family:MyNewFont;
+	}
+#tab{
+   background: -webkit-linear-gradient(left top, #A4A4A4 , #1C1C1C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #A4A4A4, #1C1C1C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #A4A4A4, #1C1C1C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #A4A4A4, #1C1C1C); /* Standard syntax (must be last) */
+	font-family:MyNewFont1;
+	color:#000000;
+	}
+.heading h1{
+	font-size:3em;
+	color:#F2F2F2;
+	font-family:"Times New Roman",Georgia,Serif;
+	}
+	
+.head:hover h1 {
+	text-shadow: 0px 0 15px #000000;
+	font-size:4em;
+}
+.head h1{
+	-webkit-transition: all 0.7s ease; transition: all 0.7s ease;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+.listing ul li{
+	font-size:1.6em;
+	}
+.detail{
+	font-family:MyNewFont2;
+	font-size:2em;
+	}
+.footer{
+	font-size:1.2em;
+	text-align:center;
+	}
